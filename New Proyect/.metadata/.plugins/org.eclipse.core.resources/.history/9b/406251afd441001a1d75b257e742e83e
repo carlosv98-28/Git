@@ -1,0 +1,14 @@
+package Aplicacion1.Pages;
+
+import org.openqa.selenium.support.PageFactory;
+
+import Aplicacion1.Browser.Browser;
+
+public class Pages  {
+	
+
+
+	
+		
+	
+}

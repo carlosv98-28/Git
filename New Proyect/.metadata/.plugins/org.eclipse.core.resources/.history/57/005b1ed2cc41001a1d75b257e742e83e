@@ -1,0 +1,25 @@
+package Aplicacion1.Pages;
+
+import org.openqa.selenium.support.PageFactory;
+
+import Aplicacion1.Browser.Browser;
+
+public class Pages {
+	
+    public static SignInPages signInPages() {
+        SignInPages signInPages = new SignInPages();
+        PageFactory.initElements(Browser.driver, signInPages);
+        return signInPages;
+    }
+    public static FailMailPages failMailPages() {
+        FailMailPages failMailPages = new FailMailPages();
+        PageFactory.initElements(Browser.driver, failMailPages);
+        return failMailPages;
+    }
+    public static FailPasswordPages failPasswordPages() {
+        FailPasswordPages failPasswordPages = new FailPasswordPages();
+        PageFactory.initElements(Browser.driver, failPasswordPages);
+        return failPasswordPages;
+    }
+
+}

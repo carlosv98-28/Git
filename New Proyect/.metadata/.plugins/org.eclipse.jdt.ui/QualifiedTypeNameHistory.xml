@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.How"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="Aplicacion1.Pages.Pages"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
+    <fullyQualifiedTypeName name="org.junit.internal.runners.statements.Fail"/>
+    <fullyQualifiedTypeName name="Aplicacion1.Pages.ManagerPages"/>
+    <fullyQualifiedTypeName name="Aplicacion1.Pages.FailMailPages"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="Aplicacion1.Pages.FailPasswordPages"/>
+    <fullyQualifiedTypeName name="org.junit.AfterClass"/>
+    <fullyQualifiedTypeName name="Aplicacion1.Browser.Browser"/>
+    <fullyQualifiedTypeName name="Aplicacion1.Pages.SignInPages"/>
+    <fullyQualifiedTypeName name="org.junit.Assert"/>
+</qualifiedTypeNameHistroy>

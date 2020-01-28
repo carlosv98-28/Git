@@ -1,0 +1,26 @@
+package Aplicacion1.Tests;
+
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.Test;
+
+import Aplicacion1.Browser.Browser;
+import Aplicacion1.Pages.Pages;
+
+public class FailMailTest {
+	
+	@Test
+    public void FailMailTest() {
+        Pages.failMailPages().iniciarNavegador();
+        Pages.failMailPages().irASignIn();
+        Pages.failMailPages().ingresarDatos();
+        Pages.failMailPages().irASubmitLogin();
+        Assert.assertEquals(Pages.failMailPages().captura(),"Invalid email address.");
+
+    }
+    @AfterClass
+    public static void Close() {
+        Browser.close();
+    }
+
+}

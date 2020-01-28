@@ -1,0 +1,16 @@
+package Aplicacion1.Tests;
+
+import Aplicacion1.Pages.SignInPages;
+
+public class SignInTest {
+	
+	SignInPages p = new SignInPages();
+	
+	p.iniciarNavegador();
+    p.irASignIn();
+    p.ingresarDatos();
+    p.irASubmitLogin();
+    Assert.assertEquals(p.captura(),"Welcome to your account. Here you can manage all of your personal information and orders.");
+    p.CerrarSession();
+
+}

@@ -1,0 +1,28 @@
+package Aplicacion1.Pages;
+
+import org.openqa.selenium.support.PageFactory;
+
+import Aplicacion1.Browser.Browser;
+
+public class Pages extends ManagerPages {
+	
+	
+	public ManagerPages pages(ManagerPages a) {
+		PageFactory.initElements(Browser.driver, a);
+		return a;
+	}
+	
+
+	@Override
+	public void ingresarDatos() {
+		
+	}
+
+	@Override
+	public String captura() {
+		return null;
+	}
+	
+		
+	
+}

@@ -1,0 +1,28 @@
+package Aplicacion1.Tests;
+
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.Test;
+import Aplicacion1.Browser.Browser;
+import Aplicacion1.Pages.FailMailPages;
+import Aplicacion1.Pages.FailPasswordPages;
+import Aplicacion1.Pages.Pages;
+import Aplicacion1.Pages.SignInPages;
+
+
+public class FailMailTest {
+	
+	@Test
+    public void FailMailTest() {
+		
+		FailMailPages failMailPages = new FailMailPages();
+		Pages p = new Pages();
+		p.
+    }
+	
+    @AfterClass
+    public static void Close() {
+        Browser.close();
+    }
+
+}
