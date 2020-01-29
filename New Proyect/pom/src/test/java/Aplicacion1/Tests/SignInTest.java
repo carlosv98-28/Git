@@ -17,7 +17,7 @@ public class SignInTest {
     p.ingresarDatos();
     p.irASubmitLogin();
     Assert.assertEquals(p.captura(),"Welcome to your account. Here you can manage all of your personal information and orders.");
-    p.CerrarSession();
+    p.cerrarSession();
     
 	}
 	
